@@ -78,25 +78,6 @@ export default function App() {
     }
 
     try {
-      const response1 = await fetch(
-        `${API_URL}/api/login`,
-        {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({
-            username,
-            password
-          })
-        }
-      );
-
-      if (!response1.ok) {
-        alert('Invalid user');
-        return;
-      }
-
       const response = await fetch(
         `${API_URL}/api/visitor`,
         {

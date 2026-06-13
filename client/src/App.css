@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #0f172a;
+    color: white;
+    font-family: Inter, Arial, sans-serif;
+}
+
+.app-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+}
+
+.card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 20px;
+    padding: 30px;
+    backdrop-filter: blur(20px);
+}
+
+.input {
+    width: 100%;
+    padding: 14px;
+    border-radius: 12px;
+    border: 1px solid #374151;
+    background: #111827;
+    color: white;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    background: linear-gradient(
+        90deg,
+        #307EFF,
+        #D82CFF
+    );
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+.progress-container {
+    height: 12px;
+    background: #1f2937;
+    border-radius: 999px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        #307EFF,
+        #D82CFF
+    );
+    transition: width 0.3s ease;
+}
+
+.option-btn {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    border: 1px solid #374151;
+    background: #111827;
+    color: white;
+    cursor: pointer;
+}
+
+.option-btn:hover {
+    border-color: #307EFF;
+}
+
+.center {
+    text-align: center;
+}
+
+.animal {
+    font-size: 64px;
+    margin: 20px 0;
+}

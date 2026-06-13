@@ -1,0 +1,9 @@
+{
+  "name": "animal-ai-prank-server",
+  "dependencies": {
+    "express": "^4.21.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "pg": "^8.16.3"
+  }
+}

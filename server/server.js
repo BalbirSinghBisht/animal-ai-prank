@@ -58,8 +58,6 @@ app.post('/api/answer', async (req, res) => {
   });
 });
 
-const path = require('path');
-
 app.use(
   express.static(
     path.join(__dirname, '../client/dist')
@@ -75,4 +73,8 @@ app.get('*', (req, res) => {
   );
 });
 
-app.listen(process.env.PORT || 5000,()=>console.log('running'));
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, () => {
+  console.log(`Server running on ${PORT}`);
+});
